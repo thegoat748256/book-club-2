@@ -16,10 +16,37 @@
         background-color: darkgoldenrod ;
         
     }
+    ul{
+        list-style-type: none;
+        margin: 20;
+        padding: 10;
+        background-color: #333;
+        overflow: hidden;
+    }
+    li {
+        float: left;       
+    }
+    li a {
+        display: block;
+        text-align: left;
+        color: white;
+        padding: 20px 25px;
+        text-decoration: none;
 
+    }
+    li a:hover {
+        color:red
+    }
     </style>
+    
     </head>
     <body>
+        <div class="grid-container">
+        <header>
+            <h1>Micheals book club</h1>
+            <img src="C:\Users\pmgna\Downloads\Joshua Coding\WEB DEVELOPMENT\Links,tables and lists\book club 2\an-open-book-with-a-colorful-nebula-in-the-background-video.jpg"
+                style="width: 300px; height: 300px;">
+            </header>
         <h1>we are going to see links,lists and tables today</h1>
         <h1>there is no sound for the video so dont try to get it back</h1>
         <audio controls autoplay>
@@ -30,17 +57,16 @@
             <source
                 src="C:\Users\pmgna\Downloads\Joshua Coding\WEB DEVELOPMENT\Links,tables and lists\book club 2\185096-874643413_tiny.mp4">
         </video>
-        <div class="grid-container">
-            <header>
-                <h1>Micheals book club</h1>
-                <img src="C:\Users\pmgna\Downloads\Joshua Coding\WEB DEVELOPMENT\Links,tables and lists\book club 2\an-open-book-with-a-colorful-nebula-in-the-background-video.jpg" style="width:300px height:300px">
-            </header>
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>visit</li>
-            <li>contact</li>
-        </ul>
+        
+        <ul>
+            <div>      
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Visit</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">News</a></li>
+            
+                 
+        </ul>   
             </div>
         <h2>links</h2>
         <h2>here is the first link</h2>
